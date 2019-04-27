@@ -20,7 +20,7 @@ int main(int argc, const char* argv[]) {
     else
         sum = 0;
 
-    for (int i = 0; i < n; i++) sum += 2;
+    while (n > 0) sum += 2, n--;
 
     printf("%d\n", sum);
 
